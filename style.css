@@ -123,7 +123,8 @@ strong {
 /*Fin de la mise en page section "présentation"*/
 
 
-#parcours /*Mise en page section "parcours"*/ {
+#parcours /*Mise en page section "parcours"*/
+{
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
@@ -166,8 +167,10 @@ h2 {
 /* ---------------------------------------------------------------------------------
     Programmation  en responsive tablette
 ------------------------------------------------------------------------------------*/
-@media all and (min-wdth: 769px) and (max-width: 941px) {
-	#recommandation {
+@media all and (min-device-wdth: 769px) and (max-width: 941px)
+{
+	#recommandation
+    {
 		display: flex;
 		flex-wrap: wrap;
 	}
@@ -176,7 +179,8 @@ h2 {
 		font-size: 20px;
 	}
 
-	h2 {
+	h2
+    {
 		font-size: 19px;
 	}
 }
@@ -184,7 +188,13 @@ h2 {
 /* ---------------------------------------------------------------------------------
 Programmation en responsive smartphone
 ------------------------------------------------------------------------------------*/
-@media all and (max-width: 768px) {
+@media all and (max-device-width: 768px)
+{
+    #bloc_page
+    {
+        height:auto;
+    }
+
 	#cv {
 		display: flex;
 		flex-direction: column-reverse;
