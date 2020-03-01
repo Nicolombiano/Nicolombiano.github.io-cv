@@ -6,8 +6,6 @@ Réalisé par Nicolas CHANTEPIE
 #bloc_page /*Mise en page des blocs*/ {
 	display: flex;
 	flex-direction: column;
-	width: auto;
-	height: 1680px;
 	margin: 2px;
 	border: none;
 }
@@ -127,7 +125,6 @@ strong {
 
 #recommandation {
 	display: flex;
-	flex-wrap: wrap;
 	justify-content: space-between;
 	width: 90%;
 }
@@ -174,19 +171,15 @@ h2 {
 	h2 {
 		font-size: 19px;	
 	}
-<<<<<<< HEAD
     #loisirs
     {
         height:auto;
     }
-=======
     #presentation
     {
         height:auto;
 
     }
-    
->>>>>>> tab
 }
 
 /* ---------------------------------------------------------------------------------
