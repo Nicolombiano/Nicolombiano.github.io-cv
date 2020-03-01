@@ -17,10 +17,6 @@ header {
 	display: flex;
 }
 
-body {
-	width: 1186px;
-}
-
 #cv {
 	display: flex;
 }
@@ -176,18 +172,21 @@ h2 {
 	}
 
 	h2 {
-		font-size: 19px;
-		
+		font-size: 19px;	
 	}
+    #presentation
+    {
+        height:auto;
+
+    }
+    
 }
 
 /* ---------------------------------------------------------------------------------
 Programmation en responsive smartphone
 ------------------------------------------------------------------------------------*/
 @media all and (max-width: 767px) {
-	#bloc_page {
-		height: auto;
-	}
+	
 
 	#cv {
 		display: flex;
