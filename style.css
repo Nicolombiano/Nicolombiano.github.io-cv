@@ -206,6 +206,11 @@ Programmation en responsive smartphone
 		width: auto;
 	}
 
+	#recommandation {
+		display: flex;
+		flex-direction: column;
+	}
+
 	#nicolas_chantepie {
 		font-size: 20px;
 		width: auto;
